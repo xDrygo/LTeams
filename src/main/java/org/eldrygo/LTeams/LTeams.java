@@ -11,7 +11,7 @@ public class LTeams extends JavaPlugin {
     public String version;
     public String prefix;
     private LogsUtils logsUtils;
-    private TeamGroupManager groupManager;
+    private TeamGroupManager teamGroupManager;
 
     @Override
     public void onEnable() {
@@ -20,7 +20,7 @@ public class LTeams extends JavaPlugin {
         ChatUtils chatUtils = new ChatUtils(configManager, this);
         LoadUtils loadUtils = new LoadUtils(configManager, this, chatUtils, teamGroupManager);
         loadUtils.loadFeatures();
-        this.groupManager = new TeamGroupManager(this);
+        this.teamGroupManager = new TeamGroupManager(this);
         this.logsUtils = new LogsUtils(this);
         logsUtils.sendStartupMessage();
     }
@@ -30,5 +30,5 @@ public class LTeams extends JavaPlugin {
         logsUtils.sendShutdownMessage();
     }
 
-    public TeamGroupManager getGroupManager() { return groupManager; }
+    public TeamGroupManager getGroupManager() { return teamGroupManager; }
 }
