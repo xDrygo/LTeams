@@ -1,0 +1,11 @@
+prefix: "#8eff39&lL&r&lTeams &8»&r"
+command:
+  reload:
+    success: "%prefix% #a0ff72✔ Plugin reloaded."
+    error: "%prefix% #FF0000🚫 Error reloading the plugin."
+  sync:
+    success: "%prefix% #a0ff72✔ Successfully synced %count% players to his luckperms group."
+error:
+  no_permission: "%prefix% #FF0000🚫 You don't have permission to use this command."
+  no_action: "%prefix% #FF0000🚫 You must specify a sub-command."
+  invalid_action: "%prefix% #FF0000🚫 Invalid sub-command."
