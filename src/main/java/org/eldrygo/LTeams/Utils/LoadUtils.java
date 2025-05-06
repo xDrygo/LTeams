@@ -2,14 +2,14 @@ package org.eldrygo.LTeams.Utils;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
-import org.eldrygo.API.XTeamsAPI;
 import org.eldrygo.LTeams.Handlers.LTeamsCommand;
 import org.eldrygo.LTeams.Handlers.LTeamsTabCompleter;
 import org.eldrygo.LTeams.LTeams;
 import org.eldrygo.LTeams.Listeners.TeamEventListener;
 import org.eldrygo.LTeams.Managers.ConfigManager;
 import org.eldrygo.LTeams.Managers.TeamGroupManager;
-import org.eldrygo.Models.Team;
+import org.eldrygo.XTeams.API.XTeamsAPI;
+import org.eldrygo.XTeams.Models.Team;
 
 public class LoadUtils {
 

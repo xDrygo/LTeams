@@ -5,11 +5,11 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.eldrygo.API.XTeamsAPI;
 import org.eldrygo.LTeams.Managers.TeamGroupManager;
 import org.eldrygo.LTeams.Utils.ChatUtils;
 import org.eldrygo.LTeams.Utils.LoadUtils;
-import org.eldrygo.Models.Team;
+import org.eldrygo.XTeams.API.XTeamsAPI;
+import org.eldrygo.XTeams.Models.Team;
 import org.jetbrains.annotations.NotNull;
 
 public class LTeamsCommand implements CommandExecutor {

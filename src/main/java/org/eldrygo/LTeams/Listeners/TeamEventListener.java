@@ -3,11 +3,11 @@ package org.eldrygo.LTeams.Listeners;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.eldrygo.API.Events.TeamJoinEvent;
-import org.eldrygo.API.Events.TeamLeaveEvent;
-import org.eldrygo.API.XTeamsAPI;
 import org.eldrygo.LTeams.LTeams;
-import org.eldrygo.Models.Team;
+import org.eldrygo.XTeams.API.Events.TeamJoinEvent;
+import org.eldrygo.XTeams.API.Events.TeamLeaveEvent;
+import org.eldrygo.XTeams.API.XTeamsAPI;
+import org.eldrygo.XTeams.Models.Team;
 
 public class TeamEventListener implements Listener {
 
