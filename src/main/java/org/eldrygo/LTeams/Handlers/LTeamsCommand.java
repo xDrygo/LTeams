@@ -65,8 +65,8 @@ public class LTeamsCommand implements CommandExecutor {
 
     private void handleSync(CommandSender sender) {
         int count = 0;
-        for (String teamName : XTeamsAPI.listTeams()) {
-            Team team = XTeamsAPI.getTeamByName(teamName);
+        for (String teamName : XTeamsAPI.listTeamNames()) {
+            Team team = XTeamsAPI.getTeam(teamName);
             for (String memberName : team.getMembers()) {
                 Player player = Bukkit.getPlayerExact(memberName);
                 if (player != null && player.isOnline()) {

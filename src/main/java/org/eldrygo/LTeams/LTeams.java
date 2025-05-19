@@ -18,9 +18,9 @@ public class LTeams extends JavaPlugin {
         version = getDescription().getVersion();
         ConfigManager configManager = new ConfigManager(this);
         ChatUtils chatUtils = new ChatUtils(configManager, this);
+        this.teamGroupManager = new TeamGroupManager(this);
         LoadUtils loadUtils = new LoadUtils(configManager, this, chatUtils, teamGroupManager);
         loadUtils.loadFeatures();
-        this.teamGroupManager = new TeamGroupManager(this);
         this.logsUtils = new LogsUtils(this);
         logsUtils.sendStartupMessage();
     }

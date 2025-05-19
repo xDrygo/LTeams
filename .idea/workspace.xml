@@ -9,8 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e891f945-6f3a-45a8-86e1-0502130e41bd" name="Changes" comment="🔧 TeamGroupManager load mistake fix.">
+    <list default="true" id="e891f945-6f3a-45a8-86e1-0502130e41bd" name="Changes" comment="🔧 Fixed new xTeamsAPI imports.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eldrygo/LTeams/Handlers/LTeamsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eldrygo/LTeams/Handlers/LTeamsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eldrygo/LTeams/LTeams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eldrygo/LTeams/LTeams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eldrygo/LTeams/Listeners/TeamEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eldrygo/LTeams/Listeners/TeamEventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eldrygo/LTeams/Utils/LoadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eldrygo/LTeams/Utils/LoadUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,27 +33,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "37ff30ff",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;37ff30ff&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2wFXYjr2wVMO3zfc5dwl9Y1kMEn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/david/Desktop",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/david/Desktop&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,12 +79,30 @@
       <option name="project" value="LOCAL" />
       <updated>1745640526937</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="🔧 Updated xTeamsAPI version.">
+      <option name="closed" value="true" />
+      <created>1746550432239</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746550432239</updated>
+    </task>
+    <task id="LOCAL-00004" summary="🔧 Fixed new xTeamsAPI imports.">
+      <option name="closed" value="true" />
+      <created>1746550519466</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746550519466</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" Initial Commit" />
     <MESSAGE value=" TeamGroupManager load mistake fix." />
-    <option name="LAST_COMMIT_MESSAGE" value=" TeamGroupManager load mistake fix." />
+    <MESSAGE value=" Updated xTeamsAPI version." />
+    <MESSAGE value=" Fixed new xTeamsAPI imports." />
+    <option name="LAST_COMMIT_MESSAGE" value=" Fixed new xTeamsAPI imports." />
   </component>
 </project>
